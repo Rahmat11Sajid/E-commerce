@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+ 
+}
+header{
+        display: flex;
+        width: 100%;
+        background: rgba(63, 62, 62, 0.672);
+        height: 100px;
+        padding-bottom:20px ;
+    }
+.logo{
+    flex: 1;
+    
+}
+
+.logo img{
+    height: 100px;
+    margin-left: 40px;
+
+}
+.companyNav{
+    flex: 1;
+    text-align: left;
+}
+.companyNav h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 5px;
+
+}
+.navDropDown{
+    flex: 2;
+    text-align: right;
+}
+.navDropDown select{
+    
+    margin-top: 22px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.navSearch{
+    flex: 2;
+    
+}
+.navSearch input{
+    margin-top: 18px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.searchBtn{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 4px;
+    padding: 10px
+
+}
+.cartIcon{
+    flex: 1;
+}
+.cartIcon img{
+    height: 40px;
+    margin-top: 20px;
+}
+nav{
+    width: 100%;
+    background: rgba(34, 30, 30, 0.672);
+    
+}
+.menu{
+    display: flex;
+
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.menu ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+/* .menu li:hover{
+    font-size: 30px;
+} */
+.mainDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 90vh;
+
+}
+.firstDivOfMainDiv{
+    flex: 3;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.firstDivOfMainDiv h2{
+    font-size: 32px;
+    margin-top: -450px;
+    margin-left: 20px;
+    color: #333;
+}
+.firstDivOfMainDiv p{
+    display: block;
+    width: 40%;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.firstDivOfMainDiv button{
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.firstDivOfMainDiv img{
+    width: 100%;
+    
+}
+.secondDivOfMainDiv{
+    flex: 1;
+    margin-bottom: 10px;
+
+}
+.divImage{
+    width: 100%
+}
+
+
+
